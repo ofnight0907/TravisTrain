@@ -188,3 +188,9 @@ FakesAssemblies/
 
 # Xamarin specifics
 *.userprefs
+/Calculator.Text/bin
+/Calculator.Text/obj
+/packages
+/TestResults
+/Calculator/bin
+/Calculator/obj

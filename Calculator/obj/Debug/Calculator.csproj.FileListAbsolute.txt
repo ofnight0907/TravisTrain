@@ -1,4 +1,0 @@
-c:\users\vincentwc_huang\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.dll
-c:\users\vincentwc_huang\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
-c:\users\vincentwc_huang\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.dll
-c:\users\vincentwc_huang\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
