@@ -1,0 +1,8 @@
+language: csharp
+solution: Calculator.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Calculator.sln
+after_script:
+  - nunit-console Calculator.Text/bin/Debug/Calculator.Text.dll
