@@ -7,3 +7,9 @@ before_script:
 after_script:
   - xbuild Calculator.sln
   - nunit-console Calculator.Text/bin/Debug/Calculator.Text.dll
+notifications:
+  email:
+    recipients:
+      - ofnight0907@gmail.com
+    on_success: always
+    on_failure: always
