@@ -19,7 +19,7 @@ namespace Calculator.Text
         {
             ICalculator cal = new Calculator();
             int result = cal.Sub(5, 6);
-            Assert.That(result, Is.EqualTo(-1));
+            Assert.That(result, Is.EqualTo(11));
         }
 
         [Test]
