@@ -6,10 +6,10 @@ before_script:
   - nuget restore Calculator.sln
 after_script:
   - xbuild Calculator.sln
-  - nunit-console Calculator.Text/bin/Debug/Calculator.Text.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe Calculator.Text/bin/Debug/Calculator.Text.dll
 notifications:
   email:
     recipients:
-      - ofnight0907@gmail.com
+      - Vincentwc_Huang@asus.com
     on_success: always
     on_failure: always
