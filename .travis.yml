@@ -5,8 +5,8 @@ before_install:
 before_script:
   - nuget restore Calculator.sln
 after_script:
-  - xbuild Calculator.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe Calculator.Text/bin/Debug/Calculator.Text.dll
+  - msbuild Calculator.sln
+  - nunit-console Calculator.Text/bin/Debug/Calculator.Text.dll
 notifications:
   email:
     recipients:
